@@ -1,0 +1,46 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	height: 65px;
+	width: 100%;
+
+	background: linear-gradient(90deg, #1c6f51 1.18%, #72c3ba 100%);;
+}
+
+.header--logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.header--logo > img {
+	max-width: 32px;
+	margin-right: 7px;
+}
+
+.header--title {
+	font-family: 'Karla';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 24px;
+	letter-spacing: -0.1em;
+
+	color: #FFFFFF;
+}
+
+.header--text {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #FFFFFF;
+	
+	margin-right: 37px;
+}
